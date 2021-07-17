@@ -1,0 +1,83 @@
+/*Selector Universal*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Selector por etiqueta*/
+header{
+    background: #23376D;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+footer{
+    background: #23376D;
+    text-align: center;
+    color: white;
+    line-height: 70px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #7D0A42;
+}
+
+footer a{
+    color: aliceblue;
+}
+
+/*Selector por ID*/
+#contenido{
+        border: 2px solid #23376D;
+        padding: 10px;
+}
+
+#principal{
+   margin-left: 20%;
+}
+
+#descripcion{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 15px;
+}
+
+#menu {
+    background-color: #eeeeee;
+
+}
+
+#menu ul li{
+    display: block;
+    float: left;
+    border-right: 2px solid #23376D;
+}
+
+#menu ul li a{
+    display: block;
+    padding: 15px;
+    color: #444;
+}
+
+#menu ul li:hover{
+    background: rgb(16, 75, 143);
+    cursor: pointer;
+}
+
+#menu ul li:hover a{
+    color: white;
+}
+
+/*Selector por clase*/
+.clearFix{
+    float: none;
+    clear: both;
+}
