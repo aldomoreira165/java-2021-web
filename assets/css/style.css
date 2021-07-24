@@ -93,7 +93,7 @@ footer a{
     padding: 20px;
 }
 
-#contenido form * {
+#contenido #inscri * {
     display: inline-block;
 }
 
@@ -118,3 +118,23 @@ input[type="submit"], button{
     float: none;
     clear: both;
 }
+
+#contenido #formulario{
+    color: black;
+}
+
+#formulario input[name="nombre"], input[name="email"]{
+    height: 45px;
+}
+
+#formulario input[name="mensaje"]{
+    height: 150px;
+    width: 600px;
+}
+
+#formulario input{
+    margin-top: 8px;
+    margin-bottom: 15px;
+    align-self: center;
+}
+
