@@ -76,6 +76,43 @@ footer a{
     color: white;
 }
 
+#contenido table{
+    margin: auto;
+}
+
+#contenido h2{
+    text-align: center;
+    color: cornflowerblue;
+    margin: 10px;
+}
+
+#contenido form{
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+#contenido form * {
+    display: inline-block;
+}
+
+input[type ="text"], select{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+
+input[type="submit"], button{
+    background: #7d0a42;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor:pointer
+}
+
 /*Selector por clase*/
 .clearFix{
     float: none;
